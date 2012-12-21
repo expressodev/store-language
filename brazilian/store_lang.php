@@ -78,6 +78,8 @@ $lang = array(
     'cc_payment_authorize'              => 'Apenas Autorizar',
     'cc_payment_purchase'               => 'Compra (Autoriza e Captura)',
     'force_member_login'                => 'É necessário ter Conta de Membro para efetuar pedidos',
+    'report_stats'                      => 'Report Statistics',
+    'report_stats_subtext'              => 'PHP &amp; EE versions will be anonymously reported to help improve the product.',
     'empty_cart_on_logout'              => 'Limpar carrinho na saída do membro',
     'cart_expiry'                       => 'Tempo de expiração do carrinho',
     'cart_expiry_subtext'               => 'O tempo em minutos que o conteúdo do carrinho ficará disponível antes que sejam removidos por inatividade.<br />Padrão: 1440 (24 horas).',
@@ -178,7 +180,7 @@ $lang = array(
     'dropoff_type'                      => 'Tipo de Permissão',
     'service_type'                      => 'Tipo de Serviço',
     'packaging_type'                    => 'Tipo de Pacote',
-    'ups_communication_error'           => 'Erro ao comunicar-se com UPS.',
+    'residential_delivery'              => 'Residential Delivery',
     'aus_post_communication_error'      => 'Erro ao comunicar-se com Australia Post.',
     'shipping_communication_error'      => 'Erro ao comunicar-se com fornecimento da entrega.',
     'no_rules_match_cart_error'         => 'Erro ao calcular a entrega: Nenhuma regra combina com o carrinho atual.',
@@ -488,6 +490,7 @@ $lang = array(
     'status_is_default'                 => 'Nota: Este status não pode ser excluído, porque ele é atualmente o status padrão do pedido.',
     'prices_excluding_tax'              => 'Todos os preços excluem taxas.',
     'tax_shipping'                      => 'Aplicar taxas aos custos de entrega?',
+    'restore_fields_confirm'            => 'Are you sure you want to restore the default order field settings?',
 
     // Status do gateway de pagamento
     'invalid_driver'                    => 'Driver Inválido',
@@ -512,7 +515,7 @@ $lang = array(
     'stock_control'                     => 'Controle de Estoque',
     'remove'                            => 'Remover',
     'sku_required'                      => 'O campo Código é obrigatório',
-    'sku_too_long'                      => 'o Código não pode exceder 20 caracteres',
+    'sku_too_long'                      => 'o Código não pode exceder 40 caracteres',
     'sku_not_unique'                    => 'O Código deve ser Único',
     'handling'                          => 'Manipular Sobrepagamento',
 

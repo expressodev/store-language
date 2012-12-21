@@ -78,6 +78,8 @@ $lang = array(
     'cc_payment_authorize'              => 'Solo Autorizar',
     'cc_payment_purchase'               => 'Comprar (Autorizar y Capturar)',
     'force_member_login'                => 'Exigir la creación de una cuenta de miembro para hacer pedidos',
+    'report_stats'                      => 'Report Statistics',
+    'report_stats_subtext'              => 'PHP &amp; EE versions will be anonymously reported to help improve the product.',
     'empty_cart_on_logout'              => 'Vaciar el carro de compra cuando el miembro cierre la sesión',
     'cart_expiry'                       => 'Caducar el Carro de Compras en',
     'cart_expiry_subtext'               => 'El número de minutos de inactividad en un carro de compras antes de que sea borrado.<br />Por Defecto: 1440 (24 horas).',
@@ -150,7 +152,7 @@ $lang = array(
     'shipping_edit_rule'                => 'Editar Regla de Envío',
     'add_rule_now'                      => 'Ahora debe añadir una regla de envío para su plugin.',
     'shipping_default_help'             => '<li>Las siguientes reglas serán acotejadas en el orden que se muestran aquí, cuando se seleccione éste método de envío.</li><li>Solamente la primera regla acotejada con éxito con el carro del cliente será aplicada, y las reglas posteriores serán ignoradas.</li><li>Si ninguna de las reglas es acotejada con el carro de compras del cliente, se mostrará un error. ¡Asegura incluir una regla general para estos casos al final de la lista!</li><li>Puede crear una prioridad personalizada para controlar el orden en que las reglas estan evaluadas. Reglas con una prioridad más alta serán evaluadas primero.</li>',
-    
+
     'pre_selected_shipping_method'      => 'Método de envío pre-seleccionada para carros nuevos:',
     'store_shipping_default'            => 'Plugin de Envío Por Defecto',
     'store_shipping_fedex'              => 'FedEx',
@@ -179,7 +181,7 @@ $lang = array(
     'dropoff_type'                      => 'Tipo de Entrega',
     'service_type'                      => 'Tipo de Servicio',
     'packaging_type'                    => 'Tipo de Embalaje',
-    'ups_communication_error'           => 'Error comunicando con UPS.',
+    'residential_delivery'              => 'Residential Delivery',
     'aus_post_communication_error'      => 'Error comunicando con Australia Post.',
     'shipping_communication_error'      => 'Error comunicando con el proveedor de envíos.',
     'no_rules_match_cart_error'         => 'Error calculando gastos de envío: No existen reglas que cotejan con el carro actual.',
@@ -489,6 +491,7 @@ $lang = array(
     'status_is_default'                 => 'Nota: Éste estado no puede ser borrado debido a que está siendo utilizado actualmente como el estado por defecto.',
     'prices_excluding_tax'              => 'Todos los precios no incluyen impuestos.',
     'tax_shipping'                      => '¿Aplicar impuestos a gastos de envío?',
+    'restore_fields_confirm'            => 'Are you sure you want to restore the default order field settings?',
 
     // payment gateway statuses
     'invalid_driver'                    => 'Driver inválido',
@@ -513,7 +516,7 @@ $lang = array(
     'stock_control'                     => 'Control de Stock',
     'remove'                            => 'Quitar',
     'sku_required'                      => 'El campo SKU es obligatoria',
-    'sku_too_long'                      => 'El SKU no debe exceder a los 20 caracteres',
+    'sku_too_long'                      => 'El SKU no debe exceder a los 40 caracteres',
     'sku_not_unique'                    => 'El SKU debe ser único',
     'handling'                          => 'Recargo de Servicio',
 

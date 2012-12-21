@@ -78,6 +78,8 @@ $lang = array(
     'cc_payment_authorize'              => 'Authorize Only',
     'cc_payment_purchase'               => 'Purchase (Authorize and Capture)',
     'force_member_login'                => 'Require member account to place orders',
+    'report_stats'                      => 'Report Statistics',
+    'report_stats_subtext'              => 'PHP &amp; EE versions will be anonymously reported to help improve the product.',
     'empty_cart_on_logout'              => 'Empty cart on member logout',
     'cart_expiry'                       => 'Cart Expiry Timeout',
     'cart_expiry_subtext'               => 'The number of minutes before inactive carts will be removed.<br />Default: 1440 (24 hours).',
@@ -178,7 +180,7 @@ $lang = array(
     'dropoff_type'                      => 'Dropoff Type',
     'service_type'                      => 'Service Type',
     'packaging_type'                    => 'Packaging Type',
-    'ups_communication_error'           => 'Error communicating with UPS.',
+    'residential_delivery'              => 'Residential Delivery',
     'aus_post_communication_error'      => 'Error communicating with Australia Post.',
     'shipping_communication_error'      => 'Error communicating with shipping provider.',
     'no_rules_match_cart_error'         => 'Error calculating shipping: No rules match the current cart.',
@@ -488,6 +490,7 @@ $lang = array(
     'status_is_default'                 => 'Note: This status can\'t be deleted, because it is currently the default order status.',
     'prices_excluding_tax'              => 'All prices exclude tax.',
     'tax_shipping'                      => 'Apply tax to shipping costs?',
+    'restore_fields_confirm'            => 'Are you sure you want to restore the default order field settings?',
 
     // payment gateway statuses
     'invalid_driver'                    => 'Invalid driver',
@@ -512,7 +515,7 @@ $lang = array(
     'stock_control'                     => 'Stock Control',
     'remove'                            => 'Remove',
     'sku_required'                      => 'The SKU field is required',
-    'sku_too_long'                      => 'The SKU must not exceed 20 characters',
+    'sku_too_long'                      => 'The SKU must not exceed 40 characters',
     'sku_not_unique'                    => 'The SKU must be unique',
     'handling'                          => 'Handling Surcharge',
 

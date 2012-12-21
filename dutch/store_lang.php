@@ -78,6 +78,8 @@ $lang = array(
     'cc_payment_authorize'              => 'Alleen authoriseren',
     'cc_payment_purchase'               => 'Inclusief betaling (Authoriseren en Capture)',
     'force_member_login'                => 'Inloggen verplicht om te bestellen',
+    'report_stats'                      => 'Report Statistics',
+    'report_stats_subtext'              => 'PHP &amp; EE versions will be anonymously reported to help improve the product.',
     'empty_cart_on_logout'              => 'Leeg winkelwagen bij uitloggen',
     'cart_expiry'                       => 'Verlaten winkelwagen automatisch legen',
     'cart_expiry_subtext'               => 'Het aantal minuten voordat een inactieve winkelwagen geleegd wordt.<br />Standaard: 1440 (24 uur).',
@@ -178,7 +180,7 @@ $lang = array(
     'dropoff_type'                      => 'Dropoff Type',
     'service_type'                      => 'Service Type',
     'packaging_type'                    => 'Packaging Type',
-    'ups_communication_error'           => 'Error communicating with UPS.',
+    'residential_delivery'              => 'Residential Delivery',
     'aus_post_communication_error'      => 'Error communicating with Australia Post.',
     'shipping_communication_error'      => 'Error communicating with shipping provider.',
     'no_rules_match_cart_error'         => 'Error calculating shipping: No rules match the current cart.',
@@ -488,6 +490,7 @@ $lang = array(
     'status_is_default'                 => 'Let op: deze status kan niet worden verwijderd omdat het de standaard bestellingstatus is.',
     'prices_excluding_tax'              => 'Alle prijzen zijn exclusief BTW.',
     'tax_shipping'                      => 'BTW toepassen op de verzendkosten?',
+    'restore_fields_confirm'            => 'Are you sure you want to restore the default order field settings?',
 
     // payment gateway statuses
     'invalid_driver'                    => 'Ongeldige driver',
@@ -512,7 +515,7 @@ $lang = array(
     'stock_control'                     => 'Voorraadbeheer',
     'remove'                            => 'Verwijderd',
     'sku_required'                      => 'Het artikelnummer veld is verplicht',
-    'sku_too_long'                      => 'Het artikelnummer mag niet meer dan 20 tekens bevatten',
+    'sku_too_long'                      => 'Het artikelnummer mag niet meer dan 40 tekens bevatten',
     'sku_not_unique'                    => 'Het artikelnummer moet uniek zijn',
     'handling'                          => 'Extra kosten',
 

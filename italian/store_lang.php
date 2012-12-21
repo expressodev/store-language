@@ -78,6 +78,8 @@ $lang = array(
     "cc_payment_authorize"              => "Autorizza soltanto",
     "cc_payment_purchase"               => "Acquista (Autorzza e Cattura)",
     "force_member_login"                => "L'utente deve registrarsi per completare l'acquisto",
+    'report_stats'                      => 'Report Statistics',
+    'report_stats_subtext'              => 'PHP &amp; EE versions will be anonymously reported to help improve the product.',
     "empty_cart_on_logout"              => "Svuota il carrello al logout dell'utente",
     "cart_expiry"                       => "Tempo di permanenza del carrello",
     "cart_expiry_subtext"               => "Imposta in minuti il tempo di inattivit&agrave; oltre il quale il Carrello verr&agrave; svuotato.<br />Default: 1440 (24 ore).",
@@ -178,7 +180,7 @@ $lang = array(
     "dropoff_type"                      => "Dropoff Type",
     "service_type"                      => "Service Type",
     "packaging_type"                    => "Packaging Type",
-    "ups_communication_error"           => "Errore di comunicazione con UPS.",
+    'residential_delivery'              => 'Residential Delivery',
     "aus_post_communication_error"      => "Errore di comunicazione con Australia Post.",
     "shipping_communication_error"      => "Errore di comunicazione con il corriere.",
     "no_rules_match_cart_error"         => "Errore nel calcolo delle spese di spedizione: Nessuna regola si adatta al carrello.",
@@ -488,6 +490,7 @@ $lang = array(
     "status_is_default"                 => "Nota: Questo status non pu&ograve; essere cancellato perch&eacute; &egrave; attualmente lo status di default dell'ordine.",
     "prices_excluding_tax"              => "Tutti i prezzi sono tasse escluse.",
     "tax_shipping"                      => "Calcola le tasse anche sulle spese di spedizione?",
+    'restore_fields_confirm'            => 'Are you sure you want to restore the default order field settings?',
 
     // payment gateway statuses
     "invalid_driver"                    => "Driver non valido",
@@ -512,7 +515,7 @@ $lang = array(
     "stock_control"                     => "Controlla la disponibilit&agrave;",
     "remove"                            => "Rimuovi",
     "sku_required"                      => "Il campo SKU &egrave; obbligatorio",
-    "sku_too_long"                      => "Il campo SKU non pu&ograve; essere maggiore di 20 caratteri",
+    "sku_too_long"                      => "Il campo SKU non pu&ograve; essere maggiore di 40 caratteri",
     "sku_not_unique"                    => "Il campo SKU deve essere univoco",
     "handling"                          => "Tariffa di gestione (handling)",
 
