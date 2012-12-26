@@ -78,6 +78,8 @@ $lang = array(
     'cc_payment_authorize'              => 'Autorisation Uniquement',
     'cc_payment_purchase'               => 'Acheter (Autoriser et Collecter)',
     'force_member_login'                => 'Exiger un compte de membre avant d\'accepter les commandes',
+    'report_stats'                      => 'Communiquer les statistiques',
+    'report_stats_subtext'              => 'Les versions de PHP &amp; EE utilisées seront communiquées à Solspace de façon anonyme afin d\'aider à l\'amélioration du produit.',
     'empty_cart_on_logout'              => 'Vider le panier lors de la déconnexion du membre',
     'cart_expiry'                       => 'Délai d\'expiration du panier',
     'cart_expiry_subtext'               => 'Le nombre de minute avant que les paniers inactifs ne soient vidés.<br />Par défaut : 1440 (24 heures).',
@@ -178,7 +180,7 @@ $lang = array(
     'dropoff_type'                      => 'Type de distribution (remise)',
     'service_type'                      => 'Type de service',
     'packaging_type'                    => 'Type d\'emballage',
-    'ups_communication_error'           => 'Erreur de communication avec UPS.',
+    'residential_delivery'              => 'Livraison résidentielle',
     'aus_post_communication_error'      => 'Erreur de communication avec Australia Post.',
     'shipping_communication_error'      => 'Erreur de communication avec le transporteur.',
     'no_rules_match_cart_error'         => 'Erreur de calcul des frais d\'expédition : aucune règle n\'est en phase avec le panier actuel.',
@@ -488,6 +490,7 @@ $lang = array(
     'status_is_default'                 => 'Note : ce statut ne peut être supprimé car c\'est actuellement le statut de commande par défaut !',
     'prices_excluding_tax'              => 'Tous les prix sont Hors-Taxe.',
     'tax_shipping'                      => 'Appliquer les taxes aux frais d\'expédition ?',
+    'restore_fields_confirm'            => 'Êtes-vous sûr de vouloir restaurer les paramètres par défaut pour l\'ordre des champs ?',
 
     // payment gateway statuses
     'invalid_driver'                    => 'Driver invalide',
@@ -499,7 +502,7 @@ $lang = array(
     // publish page
     'shipping'                          => 'Expédition',
     'pricing'                           => 'Tarification',
-    'product_modifiers'                 => 'Modificateurs de produit', 
+    'product_modifiers'                 => 'Modificateurs de produit',
     'mod_type'                          => 'Type de modificateur',
     'mod_instructions'                  => 'Instructions',
     'variation'                         => 'Variante',
@@ -512,7 +515,7 @@ $lang = array(
     'stock_control'                     => 'Contrôle des stocks',
     'remove'                            => 'Supprimer',
     'sku_required'                      => 'Le champ référence produit est requis',
-    'sku_too_long'                      => 'La référence produit ne peut dépasser 20 caractères',
+    'sku_too_long'                      => 'La référence produit ne peut dépasser 40 caractères',
     'sku_not_unique'                    => 'La référence produit doit être unique',
     'handling'                          => 'Surcoût de manutention',
 
