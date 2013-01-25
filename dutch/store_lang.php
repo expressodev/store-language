@@ -78,8 +78,8 @@ $lang = array(
     'cc_payment_authorize'              => 'Alleen authoriseren',
     'cc_payment_purchase'               => 'Inclusief betaling (Authoriseren en Capture)',
     'force_member_login'                => 'Inloggen verplicht om te bestellen',
-    'report_stats'                      => 'Report Statistics',
-    'report_stats_subtext'              => 'PHP &amp; EE versions will be anonymously reported to help improve the product.',
+    'report_stats'                      => 'Rapportage stats',
+    'report_stats_subtext'              => 'PHP &amp; EE versie zal anoniem worden geraporteerd om Store te verbeteren.',
     'empty_cart_on_logout'              => 'Leeg winkelwagen bij uitloggen',
     'cart_expiry'                       => 'Verlaten winkelwagen automatisch legen',
     'cart_expiry_subtext'               => 'Het aantal minuten voordat een inactieve winkelwagen geleegd wordt.<br />Standaard: 1440 (24 uur).',
@@ -490,7 +490,7 @@ $lang = array(
     'status_is_default'                 => 'Let op: deze status kan niet worden verwijderd omdat het de standaard bestellingstatus is.',
     'prices_excluding_tax'              => 'Alle prijzen zijn exclusief BTW.',
     'tax_shipping'                      => 'BTW toepassen op de verzendkosten?',
-    'restore_fields_confirm'            => 'Are you sure you want to restore the default order field settings?',
+    'restore_fields_confirm'            => 'Weet je zeker dat je de standaard bestellingsvelden wilt herstellen?',
 
     // payment gateway statuses
     'invalid_driver'                    => 'Ongeldige driver',
