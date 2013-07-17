@@ -213,6 +213,7 @@ $lang = array(
     'order_details'                     => 'Order Details',
     'show_invoice'                      => 'Show Invoice',
     'stock'                             => 'Stock',
+    'variations'                        => 'variations',
     'add_payment'                       => 'Add New Payment',
     'country'                           => 'Country',
     'countries'                         => 'Countries',
