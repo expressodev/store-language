@@ -106,6 +106,7 @@ $lang = array(
     'store.discount_purchase_total_subtext'             => 'Minimum value of matched products the customer must purchase.',
     'store.discount_step_qty'                           => 'Step Quantity',
     'store.discount_step_qty_subtext'                   => 'Quantity of a single item the customer must purchase at full price.',
+    'store.discount_total_use_count'                    => 'Total Use Count',
     'store.discount_total_use_limit'                    => 'Límite Total de Uso',
     'store.discount_type'                               => 'Discount Type',
     'store.display_order'                               => 'Mostrar Pedido',
